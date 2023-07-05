@@ -1,5 +1,10 @@
+import { Header } from "../../Components/Header/Header"
+
 export function Infos() {
     return (
-      <h1>Infos</h1>
+      <>
+        <Header infosButtons />  
+        <h1>Infos</h1>
+      </>
     )
   }
